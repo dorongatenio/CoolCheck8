@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "o5Mw+tYSHFyIv8C9KktnmChIahQkbXr/LBXPuKeT8JDoOJLNmbObIvRf4ThqHkKVOqrfwPowta1BhSUjUPCUPw==",
+  "success": true,
+  "projectFilePath": "/Users/doron/Downloads/ElectraProject/ElectraProjDB/ElectraProjDB/ElectraProjDB.csproj",
+  "expectedPackageFiles": [
+    "/Users/doron/.nuget/packages/dapper/2.0.143/dapper.2.0.143.nupkg.sha512",
+    "/Users/doron/.nuget/packages/microsoft.data.sqlite/7.0.8/microsoft.data.sqlite.7.0.8.nupkg.sha512",
+    "/Users/doron/.nuget/packages/microsoft.data.sqlite.core/7.0.8/microsoft.data.sqlite.core.7.0.8.nupkg.sha512",
+    "/Users/doron/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/doron/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/doron/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/doron/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "/Users/doron/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/doron/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/doron/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/doron/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/doron/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/doron/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/doron/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1817 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;500;600;700&family=Rubik:wght@700&display=swap');
+
+/*הטמעת פונט*/
+@font-face {
+    font-family: 'Assistant-Regular';
+    src: url('../font/Assistant-Regular.ttf') format('truetype');
+    src: url('../font/Assistant-Regular.woff') format('woff');
+}   
+
+/*הגדרות לעמוד*/
+#container {
+    font-family: 'Assistant-Regular';
+}
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+.login_container{
+    background-color: #12121B;
+    color: #ffffff;
+}
+
+.loginbtn {
+    align-items: center;
+    background-color: #116DFF;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 90px;
+    min-height: 30px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+
+/* For screens larger than 576px */
+/*@media (min-width: 576px) */
+@media only screen and (min-width: 768px) {
+    /*    הגדרת גודל פונט לתצוגה במחשב*/
+    body {
+    font-size: 16px;
+}
+
+/*הגדרות תפריט עליון לתצוגה במחשב*/
+ .logo {
+    height: 30px;
+    margin-left: 200px;
+    margin-right: -200px;
+    display: flex;
+    
+}
+
+.faltpic{
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;  
+}
+
+.nav--2 {
+    margin-left: auto; /* Horizontally center the nav */
+    margin-right: auto; /* Horizontally center the nav */
+}
+
+#nav--3 {
+    margin-top: 4px;
+}
+
+    .navbar {
+        border-radius: 25px;
+        z-index: 100;
+        margin-left: auto; /* Horizontally center the nav */
+        margin-right: auto; /* Horizontally center the nav */
+        margin-top: 30px;
+        height: 50px;
+        width: 1000px;
+        background-color: #12121b;
+    }
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 400;
+    border-right:  2px solid #2D2E31;
+}
+
+#Cool-Check-link{
+    border-right: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #116DFF;
+}
+
+.btn--nav {
+    align-items: center;
+    background-color: #116DFF;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 110px;
+    min-height: 30px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: -200px;
+    margin-right: 200px;
+}
+
+    .btn--nav:hover {
+        background-color: #E6E6E6;
+        color: #12121B;
+    }
+
+    /***footer***/
+    .body-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer ul {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+    .footer_li {
+        margin-top: 20px;
+        text-align: center;
+        color: #ffffff;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .p-footer {
+        margin-left: 320px;
+        pointer-events: none;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+        .p-footer:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    .a-footer {
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 10px;
+    }
+
+    .footer_li:hover {
+        color: #116DFF;
+    }
+
+    #hr {
+        margin-top: 20px;
+        border: none;
+        border-top: 2px solid #2D2E31;
+        width: 1000px;
+    }
+
+    /*עמוד האינגייגמנט לתצוגה במחשב*/
+/*    הגדרות תמונה ראשית לתצוגה במחשב*/
+    .img-wrapper {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/CoverMainPage.png');
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-position-y: center;
+        background-size: cover;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+    }
+
+    /*        הגדרות כותרת ראשית לתצוגה במחשב*/
+    .h1-mainPage {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .hero-text {
+        margin: auto;
+        width: 50%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        color: white;
+    }
+
+.openingtext-container {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.hero--openingtext {
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+/******    הגדרות אבחנו את התקלה לתצוגה במחשב******/
+.selforcoolcheck-container {
+    width: auto;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 240px;
+} 
+
+.vl {
+    border-left: 2px solid #116DFF;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+    selforcoolcheck-div {
+        text-align: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+        margin-top: 240px;
+    }
+
+.btn-selforcoolcheck{
+    align-items: center;
+    color: #FFFFFF ;
+    padding: 10px 50px;
+    border-radius: 33px;
+    border: 2px solid #116DFF;
+    background: #116DFF;
+    text-align: center;
+    
+  }
+
+  .btn-selforcoolcheck:hover {
+    color: #116DFF;
+  }
+
+
+  .hero{
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.pero{
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    }
+
+.p--3 {
+text-align: center;
+color:white;
+width: 450px;
+}
+
+.btn-selforcoolcheck{
+    align-items: center;
+    color: #FFFFFF ;
+    font-size: 10pt;
+    padding: 5px 15px;
+    border-radius: 33px;
+    border: 2px solid #116DFF;
+    background: #116DFF;
+    text-align: center;
+    
+  }
+
+  .btn-selforcoolcheck:hover {
+    color: #116DFF;
+    background: #12121B;
+  }
+
+  .coolCheckdiv .p {
+    font-size: 8pt;
+   
+}
+
+/******    הגדרות רשימת מונחים לתצוגה במחשב******/
+.upperTermText {
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+
+  .mySlides .Termtitle{
+    color: #116DFF;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+   
+  }
+  
+   /* Position the "next button" to the right */
+   .prev {
+    z-index: 2;
+    position: absolute;
+    margin-right: 120px;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+z-index: 2;
+position: absolute;
+left: 120px;
+border-radius: 3px 0 0 3px;
+}
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #ddd;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #12121B;
+  }
+
+   .decoline{
+    border-top: 2px solid #116DFF;
+    width: 10%;
+   margin: auto;
+    
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #707070;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #116DFF;
+  }
+
+  .termSection .btnToTerms{
+   padding-top: 20px;
+    position: static;
+    margin: 0 auto;
+   justify-content: center;
+  }
+
+  .btn-termsPage{
+    align-items: center;
+        color: #FFFFFF ;
+        font-size: 10pt;
+        padding: 5px 15px;
+        border-radius: 33px;
+        border: 2px solid #116DFF;
+        background: #12121B;
+        text-align: center;
+  }
+  
+  .btn-termsPage:hover {
+    color: #FFFFFF;
+    background: #116DFF;
+  }
+
+    /*תמונת קאבר למחשב בשאר העמודים*/
+    .img-wrapperPages {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/CoverAllPages.png');
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-position-y: center;
+        background-size: cover;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+    }
+
+
+/*עמוד רשימת מונחים לתצוגה במחשב*/
+    .li {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .section__faq {
+        text-align: center;
+        margin-top: 350px;
+    }
+
+    .hero_terms {
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+.pero_terms {
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .section__faq li {
+        border-radius: 4px;
+        border-bottom: 1px solid white;
+        position: relative;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        list-style-type: none;
+        width: 600px;
+    }
+
+.section__faq__row {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.strong_li {
+    margin-top: 0;
+    text-align: center;
+    color: #116DFF;
+}
+
+.section__faq__row h6 {
+    font-weight: 400;
+    color: white;
+}
+
+.section__faq__row b {
+    font-weight: 700;
+    }
+
+ /*   למחשב הגדרות עמוד עץ החלטות*/
+.alltreediv {
+    align-items: center;
+    text-align: center;
+    margin-top: 380px;
+    width: auto;
+}
+
+.btn--tree {
+    align-items: center;
+    background-color: #116DFF;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline;
+    justify-content: center;
+    line-height: 25px;
+    max-width: 480px;
+    min-height: 40px;
+    width: 250px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+    .btn--tree:hover {
+        background-color: #16437E;
+        color: #ffffff;
+    }
+
+    #popUp_button {
+        align-items: center;
+        background-color: #116DFF;
+        border: 0;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline;
+        justify-content: center;
+        line-height: 25px;
+        width: 130px;
+        height: 30px;
+        overflow: hidden;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        touch-action: manipulation;
+        transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        font-weight: bolder;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+        #popUp_button:hover {
+            background-color: #16437E;
+            color: #ffffff;
+        }
+
+    .popup {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .popup-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+    .familyspan{
+    display: inline-flex;
+    justify-content: center;
+    line-height: 20px;
+    width: 360px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -20px;
+    text-align: right;
+    font-size: 14px;
+    }
+
+    .familyspan li{
+        margin-top: 20px;
+        color: white;
+        list-style: none;
+    }
+
+#currentCategory {
+    margin-top: 100px;
+}
+
+    .Coolcheck_hero {
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .Coolcheck_pero {
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .qustiondiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .qustiondiv_iner {
+        width: 600px;
+        height: auto;
+        background-color: transparent;
+        border: 2px solid #116DFF;
+        border-radius: 20px 20px 20px 20px;
+        margin: auto;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .qustiondiv_iner_answer {
+        width: 600px;
+        height: auto;
+        background-color: transparent;
+        background-color: white;
+        border: 2px solid #116DFF;
+        border-radius: 20px 20px 20px 20px;
+        margin: auto;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #116DFF;
+    }
+.yesnobtn {
+  border-radius: 20px;
+  color: #ffffff;
+  background: #12121b;
+  border: solid #116cff 2px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  height: 35px;
+  width: 130px;
+}
+
+.yesnobtn:hover {
+    background: #116DFF;
+    text-decoration: none;
+
+}
+    .yesnobtnclicked {
+        border-radius: 20px;
+        color: #ffffff;
+        background: #116DFF;
+        border: solid #116cff 2px;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 60px;
+        height: 35px;
+        width: 130px;
+    }
+
+.qustiondiv_btn
+{
+position: relative;
+justify-content: center;
+ text-align: center;
+}
+
+.p_div
+{
+z-index: 0;
+text-align: center;
+
+}
+
+.img_div
+{
+position: relative;
+visibility: hidden;
+z-index: -1;
+}
+
+
+/*****   למחשב הגדרות עמוד selfcheck*******/
+    .img-fluid {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+    }
+
+    .hero2 {
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 26px;
+    }
+
+    .hero3 {
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    .validParamsTable1 {
+        margin-top: 20px;
+        width: 550px;
+    }
+
+    .validParamsTable2 {
+        margin-top: 20px;
+        width: 570px;
+    }
+
+    .validParamsTable3 {
+        margin-top: 20px;
+        width: 550px;
+        margin-bottom: 20px;
+    }
+
+    .notesToTechnicians{
+    
+        margin: 0 auto;
+        margin-top: 400px;
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        border: 2px solid #116DFF;
+        border-radius: 20px 20px 20px 20px;
+        box-sizing: border-box;
+      
+    }
+
+    #pinred{
+        color: red;
+    }
+
+    .explainChart {
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        color: white;
+    }
+
+.explainChart h2{
+    font-size: 22pt;
+}
+
+.chart{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chart h3{
+    color: #116DFF;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.chart .img{
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.validParams{
+  
+  margin-top: 50px;
+}
+
+
+.first {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18pt;
+}
+
+.seconde {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #116DFF;
+    font-size: 18px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #cfd9e0;
+    text-align: right;
+    
+}
+ th, td {
+    
+    padding: 15px;
+    line-height: 1.2;
+}
+tr:nth-child(even) {
+    border-collapse: collapse;
+    background-color: #12121B;
+    border: 1px solid #cfd9e0;
+    color: white;
+}
+
+th {
+    background-color: #12121B;
+    text-align: right;
+    color: white;
+
+}
+
+    /*******------עמוד אודות------*******/
+    .p--footer {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+/****************************************************** mobile ******************************************************/
+
+
+    /* For screens smaller than 767px */
+    @media (max-width: 767px) {
+  
+    /*    הגדרת גודל פונט לתצוגה במובייל*/
+    body {
+        font-size: 16px;
+    }
+
+    
+    /****הגדרות תפריט עליון לתצוגה במובייל****/
+    .logo {
+        align-items: flex-end;
+        justify-content: left;
+        height: 50px;
+        display: flex;
+        margin-right: -10px;
+    }
+
+    .faltpic{
+        margin-right: 40px;
+        height: 30px;
+        width: 30px;
+        box-sizing: border-box;
+        /*border: 2px solid #116DFF;*/
+        
+    }
+
+        .familyspan {
+            display: inline-flex;
+            justify-content: center;
+            line-height: 20px;
+            width: 360px;
+            overflow: hidden;
+            padding-top: 0px;
+            margin-top: -30px;
+            text-align: right;
+            font-size: 14px;
+            margin-left: 100px;
+        }
+
+        .btn--tree {
+            display: inline-flex;
+            justify-content: center;
+            margin-left: 50px;
+            margin-bottom: 15px;
+        }
+
+        .familyspan li {
+            color: white;
+            list-style: none;
+        }
+
+    #nav--2 {
+        margin-left: 300px;
+    }
+
+    #nav--3 {
+        margin-right: -190px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        background-color: #12121B;
+    }
+
+        .navbar-expand-md .navbar-nav .nav-link {
+            color: #ffffff;
+            font-weight: 400;
+            margin-right: 70px;
+            width: 150px;
+        }
+
+        .navbar-expand-md .navbar-nav .nav-link:hover {
+            color: #116DFF;
+        }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+
+    /*        כפתור התנתקות*/
+        .btn--nav {
+            background-color: #116DFF;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-flex;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 90px;
+            min-height: 30px;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: 265px;
+        }
+
+        .btn--nav:hover {
+            background-color: #E6E6E6;
+            color: #12121B;
+        }
+
+        .navbar-toggler {
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
+
+        .navbar-toggler .navbar-toggler-icon {
+            filter: brightness(0) invert(1);
+        }
+
+
+        /***** footer****/
+        .body-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer ul {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            color: #ffffff;
+        }
+
+        .footer_li {
+            margin-top: 20px;
+            margin-right: 22px;
+            margin-left: 22px;
+            text-align: center;
+            color: #ffffff;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        .p-footer {
+            width: 220px;
+        }
+
+            .p-footer:hover {
+                color: #ffffff;
+            }
+
+        .a-footer {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+
+        .footer_li:hover {
+            color: #116DFF;
+        }
+
+        #hr {
+            margin-top: 20px;
+            border: none;
+            border-top: 2px solid #2D2E31;
+            width: 302px;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+            .form-group label {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #6c757d;
+                transition: all 0.3s ease;
+                pointer-events: none;
+                text-align: center;
+            }
+
+            .form-group input {
+                border: none;
+                border-bottom: 1px solid #ccc;
+                outline: none;
+                text-align: center;
+            }
+
+                .form-group input:focus + label,
+                .form-group input:not(:placeholder-shown) + label {
+                    top: 0;
+                    left: 0;
+                    transform: none;
+                    color: #495057;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+
+        input:not(:placeholder-shown)::placeholder {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #fff;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+                color: #fff;
+            }
+
+    /**************עמוד האינגייגמנט לתצוגה במובייל**************/
+    /*    הגדרות תמונה ראשית לתצוגה במובייל*/
+        .img-wrapper {
+            width: 100%;
+            height: 40%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/CoverMainPage.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            display: flex;
+            background-position-y: center;
+            background-size: cover;
+            align-items: center;
+        }
+
+.hero-text{
+    padding-top: 20px;
+    text-align: center;
+    position:relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h{
+    font-weight: 700;
+    line-height: 0.5;
+    margin-bottom: 15px;
+}
+
+    /***אבחון תקלה בעצמך או על ידי העץ - עמוד פתיחה***/
+ .selforcoolcheck{
+    padding-top: 240px;
+    position: static;
+    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #12121B;
+   color: white;
+   justify-content: center;
+  
+ }
+
+ .openingtext-container {
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        background-color: #12121B;
+
+    }
+
+   .hero--openingtext {
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #ffffff;
+        background-color: #12121B;
+    }
+
+  .selforcoolcheck-container {
+        display: flex;
+        height: 450px;
+        /*width: 100%;*/
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+       
+    } 
+
+    .vl {
+        border-left: 2px solid #116DFF;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+    selforcoolcheck-div{
+        background-color: #12121B;
+        text-align: center;
+        flex-basis: 100px;
+        height: 350px;
+        width: 50px;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+
+    .selforcoolcheck-div .p--3{
+        width: 140px;
+        height: 150px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .btn-selforcoolcheck{
+        align-items: center;
+        color: #FFFFFF ;
+        font-size: 10pt;
+        padding: 5px 10px;
+        border-radius: 33px;
+        border: 2px solid #116DFF;
+        background: #116DFF;
+        text-align: center;
+        
+      }
+    
+      .btn-selforcoolcheck:hover {
+        color: #116DFF;
+        background: #12121B;
+      }
+
+
+      .coolCheckdiv .p {
+        font-size: 8pt;
+       
+    }
+
+.upperTermText{
+    text-align: center;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #ffffff;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #12121B;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .mySlides .Termtitle{
+    color: #116DFF;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+        .prev {
+            z-index: 2;
+            position: absolute;
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+  
+  .next {
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+
+        .mySlides {
+            color: #ffffff;
+        }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: #ddd;
+    }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #12121B;
+  }
+
+   .decoline{
+    border-top: 2px solid #116DFF;
+    width: 20%;
+   margin: auto;
+    
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #707070;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #116DFF;
+  }
+
+  .termSection .btnToTerms{
+   padding-top: 20px;
+    position: static;
+    margin: 0 auto;
+   justify-content: center;
+  
+  }
+
+  .btn-termsPage{
+    align-items: center;
+        color: #FFFFFF ;
+        font-size: 10pt;
+        padding: 5px 10px;
+        border-radius: 33px;
+        border: 2px solid #116DFF;
+        background: #12121B;
+        text-align: center;
+   
+  }
+  
+  .btn-termsPage:hover {
+    color: #FFFFFF;
+    background: #116DFF;
+  }
+
+
+  /*****terms page*****/
+        .hero2 {
+            color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .hero3 {
+            color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .section__faq {
+            margin-top: 250px;
+        }
+
+  .section__faq li {
+    border-bottom: 1px solid white;
+    position: relative;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.hero_terms{
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .pero_terms{
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        }
+
+.section__faq__row {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.strong_li {
+    margin-top: 0;
+    text-align: center;
+    color: #116DFF;
+}
+
+.section__faq__row h6{
+    color: white;
+}
+
+        .validParamsTable1 {
+            margin-top: 10px;
+            width: 310px;
+            font-size: 10pt;
+        }
+
+    .firsttd{
+    width: 90px;
+    }
+
+/*    תמונת קאבר לכל עמודי התוכן במובייל*/
+.img-wrapperPages {
+            width: 100%;
+            height: 35%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/CoverAllPages.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            display: flex;
+            background-position-y: center;
+            background-size: cover;
+            align-items: center;
+        }
+
+      /***** CoolCheck ****/
+    .hero{
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .pero{
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        }
+
+
+        .alltreediv {
+            margin-top: 270px;
+        }
+
+        .btn--tree {
+            align-items: center;
+            background-color: #116DFF;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-flex;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 480px;
+            min-height: 40px;
+            width: 250px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            margin-top: 30px;
+            font-weight: bolder;
+            font-size: 12px;
+            margin-right: 65px;
+        }
+
+            .btn--tree:hover {
+                background-color: #16437E;
+                color: #ffffff;
+            }
+
+        #popUp_button {
+            align-items: center;
+            background-color: #116DFF;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline;
+            justify-content: center;
+            line-height: 25px;
+            width: 130px;
+            height: 30px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            font-weight: bolder;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+            #popUp_button:hover {
+                background-color: #16437E;
+                color: #ffffff;
+            }
+
+        .popup {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            right: -130px;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 300px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+
+        #currentCategory {
+            margin-top: 70px;
+            color: #ffffff;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #qustiondiv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .qustiondiv_iner {
+            width: 285px;
+            height: auto;
+            background-color: transparent;
+            border: 2px solid #116DFF;
+            border-radius: 20px 20px 20px 20px;
+            margin: auto;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .yesnobtn {
+            background-color:#12121B;
+            border: 2px solid #116DFF;
+            border-radius: 15px;
+            color: #ffffff;
+            height: 35px;
+            width: 120px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .yesnobtnclicked {
+            background-color: #116DFF;
+            border: 2px solid #116DFF;
+            border-radius: 15px;
+            color: #ffffff;
+            height: 35px;
+            width: 120px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .qustiondiv_btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .p_div
+        {
+            z-index: 0;
+            text-align: center;
+         
+        }
+        
+        .img_div
+        {
+            position: relative;
+            visibility: hidden;
+            z-index: -1;
+        }
+
+    /********    הגדרות עמוד תרשימים למובייל*******/
+    .notesToTechnicians{
+        width: auto;
+        margin-top: 250px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        border: 2px solid #116DFF;
+        border-radius: 20px 20px 20px 20px;
+        box-sizing: border-box;
+    }
+
+    #pinred{
+        color: red;
+    }
+
+.img-wrapper-selfcheck {
+
+    height: 25%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/CoverTreePageMobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+        
+        }
+        
+    .explainChart{
+    padding-top: 50px;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #12121B;
+   color: white;
+   justify-content: center;
+    text-align: center;
+    }
+
+        .explainChart1 {
+            padding-top: 50px;
+            position: static;
+            /*height: 450px;*/
+            width: 100%;
+            margin: 0 auto;
+            background-color: #12121B;
+            color: white;
+            justify-content: center;
+            text-align: center;
+        }
+  
+.titleForChart{
+   font-size: 20pt;
+}
+
+.titleForChart{
+    font-size: 16pt;
+}
+
+.explainChart h2{
+    font-size: 16pt;
+}
+
+.chart{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chart h3{
+    color: #116DFF;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.chart .img{
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.validParams{
+  
+  margin-top: 50px;
+}
+
+
+.first {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18pt;
+}
+
+.seconde {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #116DFF;
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #cfd9e0;
+    text-align: right;
+    
+}
+ th, td {
+    
+    padding: 15px;
+    line-height: 1.2;
+}
+tr:nth-child(even) {
+    border-collapse: collapse;
+    background-color: #12121B;
+    border: 1px solid #cfd9e0;
+    color: white;
+}
+
+th {
+    background-color: #12121B;
+    text-align: right;
+    color: white;
+
+}
+
+        .AboutPhoto {
+            z-index: 2;
+        }
+
+    }

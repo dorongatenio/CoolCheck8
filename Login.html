@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <title>עמוד התחברות</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="styles/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="./styles/styles.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.min.js"></script>
+    <script src="./jScripts/bootstrap.bundle.min.js"></script>
+    <script src="./jScripts/treejs.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: #12121b;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body id="container">
+    <div class="login_container">
+
+        <div id="login_bg_image">
+
+        </div>
+        <div class="container text-center" style="display: flex; align-items: center; height: 100vh;">
+            <div class="col" style="width: 300px;">
+                <img style="height: 50px; align-items: center;" class="logoLogin" src="./images/LogoLight.svg" />
+                <div class="row" style="text-align: center; align-items: center;">
+                    <h1>ברוכים הבאים</h1>
+                </div>
+                <div class="row" style="text-align: center; align-items: center;">
+                    <p>
+                        כלי תומך לאיתור וטיפול בתקלות
+                        <br />
+                        עבור טכנאי מיזוג אוויר תעשייתי
+                    </p>
+                </div>
+                <div class="row" style="text-align: center; align-items: center; ">
+                    <div class="form-group">
+                        <input type="text" name="username" id="username" placeholder="שם משתמש" required>
+                        <label for="username"></label>
+                    </div>
+                </div>
+                <div class="row" style="text-align: center; align-items: center; justify-content: center; ">
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" placeholder="סיסמה" required>
+                        <label for="password"></label>
+                    </div>
+                </div>
+                <div style="align-items: center; justify-content: center; ">
+                    <input type="button" class="loginbtn" value="כניסה" onclick="Login()">
+                    <p id="message"></p>
+                </div>
+
+                <img style="height: 45px; align-items: center;" src="images/ElectraLogo.png" />
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="body-footer">
+        <div id="hr" class="col-md-12 col-sm-3 row">
+            <ul id="footer_ul">
+                <li class="footer_li">
+                    <p class="p--footer">
+                        תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון
+                        HIT בפקולטה לטכנולוגיות למידה
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
